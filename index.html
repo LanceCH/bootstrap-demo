@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap-Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <span class="glyphicon glyphicon-barcode"></span>
+                    知乎
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-left" role="search" action="" method="post">
+                    <div class="form-group has-feedback">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="搜索你感兴趣的内容...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">提问</button>
+                </form>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">话题</a></li>
+                    <li><a href="#">发现</a></li>
+                    <li><a href="#">消息</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <img src="https://pic1.zhimg.com/da8e974dc_s.jpg" alt="">
+                            Lance
+                            <!-- <span class="caret"></span> -->
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> 我的主页</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> 私信</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 设置</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-off"></span> 退出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-9">
+                        <span class="glyphicon glyphicon-list-alt"></span> 最新动态
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <span class="glyphicon glyphicon-cog"></span> 设置
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="row">
+                            <a href="#"><img class="img-responsive img-rounded" src="http://pic2.zhimg.com/b8122761a03db2d4f31ca7608f02030d_m.jpg" alt=""></a>
+                        </div>
+                        <div class="row">
+                            <a href="#"><div class="text-center number">1</div></a>
+                        </div>
+                    </div>
+                    <div class="col-md-11" id="question">
+                        <p><a href="#">朱林</a> 回答了问题 • 32 分钟前</p>
+                        <p><a href="#"><strong>前端开发工程师必读书籍有哪些值得推荐？</strong></a></p>
+                        <p>朱林，前端。http://blog.csdn.net/zhulin2609</p>
+                        <p>贴一个自己前几天总结的前端书评，js，css，nodejs，基本上是按照由浅入深来排的。 原文地址：我的前端书评 下面是正文：</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> 关注问题</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-comment"></span> 添加评论</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-heart-empty"></span> 感谢</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-share"></span> 分享</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> 收藏</a></li>
+                            <li><a href="#">• 没有帮助</a></li>
+                            <li><a href="#">• 举报</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-1">
+                        <div class="row">
+                            <a href="#"><img class="img-responsive img-rounded" src="http://pic2.zhimg.com/b8122761a03db2d4f31ca7608f02030d_m.jpg" alt=""></a>
+                        </div>
+                        <div class="row">
+                            <a href="#"><div class="text-center number">2</div></a>
+                        </div>
+                    </div>
+                    <div class="col-md-11" id="question">
+                        <p><a href="#">mu peng</a> 回答了问题 • 32 分钟前</p>
+                        <p><a href="#"><strong>前端开发工程师在技术上如何专注和沉淀？</strong></a></p>
+                        <p>tobeyouth ，三流的前端开发者，二流的音乐爱好者，好像没有什么一流的...</p>
+                        <p>才了解到自己在基础方面还并不扎实。
+                            作为一个所谓的前端工程师，没有读过一次w3c的标准文档，ECMAScript的文档，没深入的研究过html结构的语义，这些可能都是导致日后进步缓慢的原因。
+                             其次是对于目前逐渐扩大的前端工程师的职责范围的迷惑，现在的前端都能…</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><span class="glyphicon glyphicon-plus"></span> 关注问题</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-comment"></span> 添加评论</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-heart-empty"></span> 感谢</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-share"></span> 分享</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> 收藏</a></li>
+                            <li><a href="#">• 没有帮助</a></li>
+                            <li><a href="#">• 举报</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">right</div>
+        </div>
+    </div>
+</body>
+</html>
